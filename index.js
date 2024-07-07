@@ -49,6 +49,16 @@ function createTodoElement(text){
 }
 
 
+if(todosLS) {
+    todosLS.forEach(todo => addTodo(todo))
+}
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+
+    addTodo()
+})
+
 function addTodo(todo) {
     let todoText = input.value
 

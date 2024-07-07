@@ -24,9 +24,9 @@ form {
     justify-content: center;
 }
 input {
-    padding: 10px;
+    padding: 15px;
     border: none;
-    width: 350px;
+    width: 80%;
     margin-top: 50px;
 }
 form ::placeholder{
@@ -35,9 +35,23 @@ form ::placeholder{
 }
 ul li {
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+    border-top: 1px solid #ccc;
     color: rgb(50, 47, 47);
 }
+
+body > div {
+    width: 450px;
+    margin: 0 auto;
+}
+
+ul{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+}
+
 li.completed {
+    opacity: 0.3;
     text-decoration: line-through;
 }
